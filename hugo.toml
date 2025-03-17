@@ -1,3 +1,79 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://rafyco.pl/'
+languageCode = 'pl'
+title = 'Rafyco.pl'
+
+[pagination]
+pagerSize = 20
+
+[services]
+[services.disqus]
+shortname = "rafyco"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Rafał Kobel"
+  email = "rafalkobel@rafyco.pl"
+  info = "Full Stack DevOps and Magician"
+  description = "Rafał Kobel's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/avatar.jpg"
+  gravatar = "rafalkobel@rafyco.pl"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2019
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+  
+  # mask_icon_color = #5bbad5
+  # mask_icon = "/img/pinned-tab.svg"
+
+  # customCSS = ["css/custom.css"]
+  customSCSS = ["scss/variables.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  # series = "series"
+  tag = "tags"
+  # author = "authors"
+
+  # Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/rafyco/"
+[[params.social]]
+  name = "linkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 2
+  url = "https://github.com/johndoe/"
+[[params.social]]
+  name = "Instagram"
+  icon = "fa-brands fa-instagram fa-2x"
+  weight = 3
+  url = "https://github.com/johndoe/"
+ [[params.social]]
+  name = "Rss"
+  icon = "fa-solid fa-rss fa-2x"
+  weight = 4
+  url = "https://github.com/johndoe/"
+  
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
+
