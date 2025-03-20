@@ -1,79 +1,206 @@
 baseURL = 'https://rafyco.pl/'
-languageCode = 'pl'
-title = 'Rafyco.pl'
 
-[pagination]
-pagerSize = 20
-
-[services]
-[services.disqus]
-shortname = "rafyco"
-
-[markup.highlight]
-style = "github-dark"
+theme = 'LoveIt'
+title = "Rafał Kobel"
+defaultContentLanguage = "pl"
 
 [params]
-  author = "Rafał Kobel"
-  email = "rafalkobel@rafyco.pl"
-  info = "Full Stack DevOps and Magician"
-  description = "Rafał Kobel's personal website"
-  keywords = "blog,developer,personal"
-  avatarurl = "images/avatar.jpg"
-  gravatar = "rafalkobel@rafyco.pl"
+  defaultTheme = "auto"
+  title = "Rafyco.pl"
+  description = "Rafał Kobel's private site"
+  # images = ["/logo.png"]
 
-  faviconSVG = "/img/favicon.svg"
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
+  [params.author]
+        name = "Rafał Kobel"
+        email = "rafalkobel@rafyco.pl"
+        link = "https://rafyco.pl"
 
-  since = 2019
 
-  enableTwemoji = true
+  # Header config
+  [params.header]
+    # desktop header mode ["fixed", "normal", "auto"]
+    desktopMode = "fixed"
+    # mobile header mode ["fixed", "normal", "auto"]
+    mobileMode = "auto"
+    # Header title config
+    [params.header.title]
+      # URL of the LOGO
+      # LOGO 的 URL
+      logo = ""
+      # title name
+      name = "Rafyco.pl"
+      # you can add extra information before the name (HTML format is supported), such as icons
+      pre = "<i class='fa-solid fa-power-off' aria-hidden='true'></i>"
+      # you can add extra information after the name (HTML format is supported), such as icons
+      post = ""
+      # whether to use typeit animation for title name
+      typeit = false
 
-  colorScheme = "auto"
-  hidecolorschemetoggle = false
-  
-  # mask_icon_color = #5bbad5
-  # mask_icon = "/img/pinned-tab.svg"
+  # Footer config
+  [params.footer]
+    enable = true
+    # Custom content (HTML format is supported)
+    custom = ""
+    # whether to show Hugo and theme info
+    hugo = false
+    # whether to show copyright info
+    copyright = true
+    # whether to show the author
+    author = true
+    # site creation time
+    since = 2011
+    # ICP info only in China (HTML format is supported)
+    icp = ""
+    # license info (HTML format is supported)
+    license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
-  # customCSS = ["css/custom.css"]
-  customSCSS = ["scss/variables.scss"]
-  # customJS = ["js/custom.js"]
+  # Section (all posts) page config
+  [params.section]
+    # special amount of posts in each section page
+    paginate = 20
+    # date format (month and day)
+    dateFormat = "01-02"
+    # amount of RSS pages
+    rss = 10
 
-[taxonomies]
-  category = "categories"
-  # series = "series"
-  tag = "tags"
-  # author = "authors"
+  # List (category or tag) page config
+  [params.list]
+    # special amount of posts in each list page
+    paginate = 20
+    # date format (month and day)
+    dateFormat = "01-02"
+    # amount of RSS pages
+    rss = 10
 
-  # Social links
-[[params.social]]
-  name = "Github"
-  icon = "fa-brands fa-github fa-2x"
-  weight = 1
-  url = "https://github.com/rafyco/"
-[[params.social]]
-  name = "linkedIn"
-  icon = "fa-brands fa-linkedin fa-2x"
-  weight = 2
-  url = "https://github.com/johndoe/"
-[[params.social]]
-  name = "Instagram"
-  icon = "fa-brands fa-instagram fa-2x"
-  weight = 3
-  url = "https://github.com/johndoe/"
- [[params.social]]
-  name = "Rss"
-  icon = "fa-solid fa-rss fa-2x"
-  weight = 4
-  url = "https://github.com/johndoe/"
-  
-# Menu links
-[[menu.main]]
-  name = "Blog"
-  weight = 1
-  url  = "posts/"
-[[menu.main]]
-  name = "About"
-  weight = 2
-  url = "about/"
+  # App icon config
+  [params.app]
+    # optional site title override for the app when added to an iOS home screen or Android launcher
+    title = "Rafyco.pl"
+    # whether to omit favicon resource links
+    noFavicon = false
+    # modern SVG favicon to use in place of older style .png and .ico files
+    svgFavicon = ""
+    # Android browser theme color
+    themeColor = "#ffffff"
+    # Safari mask icon color
+    iconColor = "#5bbad5"
+    # Windows v8-11 tile color
+    tileColor = "#da532c"
+
+  # Search config
+  # 搜索配置
+  [params.search]
+    enable = false
+
+  # Home page config
+  [params.home]
+    # amount of RSS pages
+    rss = 10
+    # Home page profile
+    [params.home.profile]
+      enable = true
+      # Gravatar Email for preferred avatar in home page
+      gravatarEmail = "rafalkobel@rafyco.pl"
+      # URL of avatar shown in home page
+      avatarURL = "/images/avatar.png"
+      # title shown in home page (HTML format is supported)
+      title = "Rafał Kobel"
+      # subtitle shown in home page (HTML format is supported)
+      subtitle = "Software Engineer | Guitar Player"
+      # whether to use typeit animation for subtitle
+      typeit = true
+      # whether to show social links
+      social = true
+      # disclaimer (HTML format is supported)
+      disclaimer = "W teori, teoria i praktyka to to samo, w praktyce nie zawsze..."
+    # Home page posts
+    [params.home.posts]
+      enable = true
+      # special amount of posts in each home posts page
+      paginate = 6
+    [params.social]
+        Github="rafyco"
+        Instagram="rafal.kobel"
+        LinkedIn="rafał-kobel-03850910a"
+        email="rafalkobel@rafyco.pl"
+        rss="https://rafyco.pl/index.xml"
+    [params.page]
+        lightgallery = false
+    	[params.page.comment]
+    		enable = true
+    		[params.page.comment.disqus]
+    		enable = true
+    		shortname = "rafyco"
+    		    [params.page.share]
+      enable = true
+      X = false
+      Threads = false
+      Facebook = true
+      Linkedin = true
+      Whatsapp = true
+      Pinterest = false
+      Tumblr = false
+      HackerNews = false
+      Reddit = true
+      VK = false
+      Buffer = false
+      Xing = false
+      Line = false
+      Instapaper = false
+      Pocket = false
+      Flipboard = false
+      Weibo = false
+      Blogger = false
+      Baidu = false
+      Odnoklassniki = false
+      Evernote = false
+      Skype = false
+      Trello = false
+      Diaspora = true
+      Mix = false
+      Telegram = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+
+[pagination]
+    disableAliases = false
+    pageSize = 10
+    path = "page"
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "posts/"
+  [[menu.main]]
+    name = "O mnie"
+    weight = 2
+    url = "about/"
+
+[languages]
+  [languages.pl]
+  	weight = 1
+  	languageCode = "pl"
+  	languageName = "Polski"
+#  [languages.en]
+#  	weight = 2
+#  	languageCode = "en"
+#  	languageName = "English"
+
+#    [languages.en.params.home.profile]
+#    subtitle = "Come to me again"
+#  	[languages.en.menu]
+#      [[languages.en.menu.main]]
+#        name = "Blog"
+#        weight = 1
+#        url  = "posts/"
+#      [[languages.en.menu.main]]
+#        name = "About"
+#        weight = 2
+#        url = "about/"
+
 

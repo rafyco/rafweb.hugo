@@ -1,15 +1,15 @@
-+++ 
-draft = false
-date = 2017-09-26T15:17:35+01:00
-title = "Ludzka nagrywarka"
-description = "Reklamy, któż ich nie zna. Otaczają nas ze wszystkich stron, zostawiając w psychice trwały ślad zachęcający nas do konsumpcji jakiegoś produktu lub skorzystania z czyjejś usługi. Nic więc dziwnego, że ludzie coraz agresywniej reagują na kolejne pojawiające się w prasie czy telewizji oferty."
-slug = ""
-authors = ["Rafał Kobel"]
-tags = []
-categories = []
-externalLink = ""
-series = []
-+++
+---
+date: '2017-09-26T22:52:12+01:00'
+draft: false
+title: 'Ludzka nagrywarka'
+
+categories: ["przemyślenia"]
+tags: ["reklama"]
+
+resources:
+  - name: "featured-image"
+    src: "featured-image.jpg"
+---
 
 Parę dni temu przyglądając się grupce dzieci zauważyłem pewne ciekawe zjawisko. Dziś napiszę parę słów na ten temat.
 

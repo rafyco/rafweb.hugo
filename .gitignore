@@ -1,2 +1,5 @@
 .hugo_build.lock
 public/
+*.swp
+
+_gen/
