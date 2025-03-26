@@ -6,9 +6,8 @@ title: 'Epilog'
 categories: ["przemyślenia"]
 tags: []
 
-resources:
-  - name: "featured-image"
-    src: "featured-image.jpg"
+featuredImage: "/posts/epilog/featured-image.jpg"
+featuredImagePreview: "/posts/epilog/featured-image.jpg"
 ---
 
  Pewien polski filozof orzekł kiedyś, że słońce stoi w miejscu, a wszystkie inne planety krążą wokół niej. Wbrew powszechnemu ówczesnym przekonaniu o centralnym położeniu słońca udało mu się przekonać cały świat o słuszności swoich poglądów i zdobyć międzynarodową sławę.

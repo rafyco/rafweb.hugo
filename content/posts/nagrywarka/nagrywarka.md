@@ -6,9 +6,8 @@ title: 'Ludzka nagrywarka'
 categories: ["przemyślenia"]
 tags: ["reklama"]
 
-resources:
-  - name: "featured-image"
-    src: "featured-image.jpg"
+featuredImage: "/posts/nagrywarka/featured-image.jpg"
+featuredImagePreview: "/posts/nagrywarka/featured-image.jpg"
 ---
 
 Parę dni temu przyglądając się grupce dzieci zauważyłem pewne ciekawe zjawisko. Dziś napiszę parę słów na ten temat.
