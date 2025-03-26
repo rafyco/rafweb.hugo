@@ -180,6 +180,10 @@ defaultContentLanguage = "pl"
     name = "O mnie"
     weight = 2
     url = "about/"
+  [[menu.main]]
+    name = "Linktree"
+    weight = 3
+    url = "https://linktr.ee/rafyco"
 
 [languages]
   [languages.pl]
