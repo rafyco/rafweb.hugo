@@ -2,4 +2,5 @@
 version: 3
 
 tasks:
-  start: hugo server --bind 0.0.0.0
+  start: hugo server --bind 0.0.0.0 --buildDrafts --buildExpired --buildFuture
+  build: hugo build
