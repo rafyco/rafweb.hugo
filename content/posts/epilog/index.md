@@ -6,6 +6,9 @@ title: 'Epilog'
 categories: ["przemyślenia"]
 tags: []
 
+toc:
+  enable: false
+
 featuredImage: "/posts/epilog/featured-image.jpg"
 featuredImagePreview: "/posts/epilog/featured-image.jpg"
 ---
