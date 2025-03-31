@@ -79,7 +79,7 @@ defaultContentLanguage = "pl"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
-    svgFavicon = "favicon.svg"
+    svgFavicon = "/favicon.svg"
     # Android browser theme color
     themeColor = "#0c7c59"
     # Safari mask icon color
