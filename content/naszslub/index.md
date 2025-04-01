@@ -1,13 +1,15 @@
-+++
-date = '2025-10-15T22:47:59+01:00'
-draft = false
-title = 'Nasz ślub'
+---
+date: '2022-10-15T22:47:59+01:00'
+draft: false
+title: 'Nasz ślub'
 
-hiddenFromHomePage = true
-hiddenFromSearch = true
+hiddenFromHomePage: true
+hiddenFromSearch: true
 
-enableEmoji = true
-+++
+enableEmoji: true
+comment:
+  enable: false
+---
 
 # Zapraszam do obejrzenia zdjęć z naszego ślubu 💍💍
 

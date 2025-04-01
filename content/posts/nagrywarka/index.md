@@ -6,6 +6,10 @@ title: 'Ludzka nagrywarka'
 categories: ["przemyślenia"]
 tags: ["reklama"]
 
+
+toc:
+  enable: false
+
 featuredImage: "/posts/nagrywarka/featured-image.jpg"
 featuredImagePreview: "/posts/nagrywarka/featured-image.jpg"
 ---
