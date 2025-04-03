@@ -32,12 +32,12 @@ params:
 
   section:
        paginate: 20
-       dateFormat: 01-02
+       dateFormat: 02-01
        rss: 10
 
   list:
        paginate: 20
-       dateFormat: 01-02
+       dateFormat: 02-01
        rss: 10
 
   app:
@@ -56,7 +56,6 @@ params:
        profile:
            enable: true
            gravatarEmail: rafalkobel@rafyco.pl
-           avatarURL: /images/avatar.png
            title: Rafał Kobel
            subtitle: Software Engineer | Guitar Player
            typeit: true

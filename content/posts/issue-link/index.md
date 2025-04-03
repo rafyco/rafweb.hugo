@@ -1,7 +1,7 @@
 ---
 date: '2025-04-15T06:00:00+01:00'
-draft: true 
-title: 'Linki do tasków w inteliJ [draft]'
+draft: false
+title: 'Linki do tasków w inteliJ'
 subtitle: 'Dodaj linki do tasków w systemie wersjonowania'
 
 categories: ["it"]

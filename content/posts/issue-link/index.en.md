@@ -1,7 +1,7 @@
 ---
 date: '2025-04-15T06:00:00+01:00'
-draft: true 
-title: 'Issue navigations in inteliJ [draft]'
+draft: false
+title: 'Issue navigations in inteliJ'
 subtitle: 'Add links in commit in your version control system'
 
 categories: ["it"]
