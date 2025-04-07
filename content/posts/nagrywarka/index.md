@@ -6,11 +6,17 @@ title: 'Ludzka nagrywarka'
 categories: ["przemyślenia"]
 tags: ["reklama"]
 
+
+toc:
+  enable: false
+
 featuredImage: "/posts/nagrywarka/featured-image.jpg"
 featuredImagePreview: "/posts/nagrywarka/featured-image.jpg"
 ---
 
 Parę dni temu przyglądając się grupce dzieci zauważyłem pewne ciekawe zjawisko. Dziś napiszę parę słów na ten temat.
+
+<!--more-->
 
 Reklamy, któż ich nie zna. Otaczają nas ze wszystkich stron, zostawiając w psychice trwały ślad zachęcający nas do konsumpcji jakiegoś produktu lub skorzystania z czyjejś usługi. Nic więc dziwnego, że ludzie coraz agresywniej reagują na kolejne pojawiające się w prasie czy telewizji oferty.
 

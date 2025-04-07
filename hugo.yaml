@@ -1,0 +1,163 @@
+---
+baseURL: https://rafyco.pl/
+
+theme: LoveIt
+title: Rafał Kobel
+defaultContentLanguage: pl
+
+params:
+  defaultTheme: auto
+  title: Rafyco.pl
+
+  author:
+      name: Rafał Kobel
+      email: rafalkobel@rafyco.pl
+      link: https://rafyco.pl
+
+  header:
+       desktopMode: fixed
+       mobileMode: auto
+       title:
+           name: Rafyco.pl
+           pre: "<i class='fa-solid fa-power-off' aria-hidden='true'></i>"
+           typeit: false
+
+  footer:
+       enable: true
+       hugo: false
+       copyright: true
+       author: true
+       since: 2011
+       license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+
+  section:
+       paginate: 20
+       dateFormat: 02-01
+       rss: 10
+
+  list:
+       paginate: 20
+       dateFormat: 02-01
+       rss: 10
+
+  app:
+     title: Rafyco.pl
+     noFavicon: false
+     svgFavicon: /favicon.svg
+     themeColor: "#0c7c59"
+     iconColor: "#0c7c59"
+     tileColor: "#0c7c59"
+
+  search:
+     enable: false
+
+  home:
+       rss: 10
+       profile:
+           enable: true
+           gravatarEmail: rafalkobel@rafyco.pl
+           title: Rafał Kobel
+           subtitle: Software Engineer | Guitar Player
+           typeit: true
+           social: true
+       posts:
+           enable: true
+           paginate: 6
+  social:
+      Github: rafyco
+      Instagram: rafal.kobel
+      LinkedIn: rafał-kobel-03850910a
+      email: rafalkobel@rafyco.pl
+      rss: https://rafyco.pl/index.xml
+  page:
+      lightgallery: false
+      comment:
+           enable: true
+           disqus:
+             enable: true
+             shortname: rafyco-pl
+      share:
+          enable: true
+          X: false
+          Threads: false
+          Facebook: true
+          Linkedin: true
+          Whatsapp: true
+          Pinterest: false
+          Tumblr: false
+          HackerNews: false
+          Reddit: false
+          VK: false
+          Buffer: false
+          Xing: false
+          Line: false
+          Instapaper: false
+          Pocket: true
+          Flipboard: false
+          Weibo: false
+          Blogger: false
+          Baidu: false
+          Odnoklassniki: false
+          Evernote: true
+          Skype: false
+          Trello: false
+          Diaspora: true
+          Mix: false
+          Telegram: false
+  analytics:
+    google:
+      id: G-9YE2RLDZ8K
+      respectDoNotTrack: false
+
+outputs:
+    home: ["HTML", "RSS", "JSON"]
+    page: ["HTML"]
+    section: ["HTML", "RSS"]
+    taxonomy: ["HTML", "RSS"]
+
+pagination:
+    disableAliases: false
+    pageSize: 10
+    path: page
+
+languages:
+   pl:
+      weight: 1
+      languageCode: pl
+      languageName: Polski
+      params:
+        description: Prywatna strona Rafała Kobla
+        home:
+          profile:
+            disclaimer: W teori, teoria i praktyka to to samo, w praktyce nie zawsze...
+      menu:
+        main:
+          - name: Blog
+            weight: 1
+            url : posts/
+          - name: O mnie
+            weight: 2
+            url: about/
+          - name: Linktree
+            weight: 3
+            url: https://linktr.ee/rafyco
+   en:
+      weight: 2
+      languageCode: en
+      languageName: English
+      params:
+        description: Rafał Kobel's private site
+        home:
+          profile:
+            disclaimer: In theory, theory and practice are the same thing, in practice, not always....
+      menu:
+        main:
+           - name: Blog
+             weight: 1
+             url : posts/
+           - name: About
+             weight: 2
+             url: about/
+           - name: Linktree
+             weight: 3
+             url: https://linktr.ee/rafyco
