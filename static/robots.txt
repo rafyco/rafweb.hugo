@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /naszslub/
+
+Sitemap: https://rafyco.pl/sitemap.xml

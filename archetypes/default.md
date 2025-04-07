@@ -4,8 +4,8 @@ subtitle: ""
 date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true
-author: ""
-authorLink: ""
+author: "Rafał Kobel"
+authorLink: "https://rafyco.pl"
 description: ""
 license: ""
 images: []
