@@ -16,6 +16,8 @@ featuredImagePreview: "/posts/nagrywarka/featured-image.jpg"
 
 Parę dni temu przyglądając się grupce dzieci zauważyłem pewne ciekawe zjawisko. Dziś napiszę parę słów na ten temat.
 
+<!--more-->
+
 Reklamy, któż ich nie zna. Otaczają nas ze wszystkich stron, zostawiając w psychice trwały ślad zachęcający nas do konsumpcji jakiegoś produktu lub skorzystania z czyjejś usługi. Nic więc dziwnego, że ludzie coraz agresywniej reagują na kolejne pojawiające się w prasie czy telewizji oferty.
 
 Zaskakujące jest to z jakim zapałem twórcy reklam starają się przekazać swoim „ofiarom” informacje o produktach. Najnowsze reklamy pojawiają się już dosłownie wszędzie, poczynając od naszych telefonów kończąc w przysłowiowej lodówce. Co by jednak było gdyby swoje produkty reklamować w nieco bardziej wyrafinowany sposób i odtwarzać je wprost z naszych przyjaciół? Nie potrzebne są jednak żadne kosmiczne technologie aby to uczynić. Można do problemu podejść nieco subtelniej.
