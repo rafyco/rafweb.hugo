@@ -13,3 +13,7 @@ featuredImagePreview: "/posts/{{ .File.ContentBaseName }}/featured-image.jpg"
 ---
 
 <!--more-->
+
+## tl;dr
+
+## Bibliografia
