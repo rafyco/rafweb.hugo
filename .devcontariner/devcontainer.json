@@ -1,0 +1,19 @@
+{
+    "name": "Rafyco.pl - blog editor",
+    "image": "mcr.microsoft.com/devcontainers/base:jammy",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "eliostruyf.vscode-front-matter",
+                "adamvoss.vscode-languagetool"
+            ]
+        }
+    },
+    "postCreateCommand": "bash .devcontainer/install.sh",
+    "portsAttributes": {
+        "1313": {
+            "label": "Application",
+            "onAutoForward": "openBrowserOnce"
+        }
+    }
+} 
