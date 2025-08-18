@@ -2,6 +2,8 @@
 date: '2017-09-26T22:52:12+01:00'
 draft: false
 title: 'Human recorder'
+aliases:
+  - /posts/nagrywarka
 
 categories: ["reflections"]
 tags: ["ads"]

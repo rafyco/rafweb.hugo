@@ -3,6 +3,8 @@ date: '2025-04-10T06:00:00+01:00'
 draft: false
 title: 'Issue navigations in inteliJ'
 subtitle: 'Add links in commit in your version control system'
+aliases:
+  - /posts/issue-link
 
 categories: ["it"]
 tags: ["intelij", "development", "ide", "jetbrains"]

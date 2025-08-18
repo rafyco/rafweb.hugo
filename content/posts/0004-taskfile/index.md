@@ -3,6 +3,8 @@ date: '2025-04-24T06:00:00+01:00'
 draft: false 
 title: 'Taskfile - Twój pomocnik przy budowaniu apki'
 subtitle: 'Taskfile - instalacja i użycie'
+aliases:
+  - /posts/taskfile
 
 categories: ["it"]
 tags: ["taskfile", "narzędzia", "system budowania", "devops"]

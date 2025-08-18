@@ -3,6 +3,8 @@ date: '2025-04-24T06:00:00+01:00'
 draft: false
 title: 'Taskfile - your app builder helper'
 subtitle: 'Taskfile - installation and use'
+aliases:
+ - /posts/taskfile
 
 categories: ["it"]
 tags: ["taskfile", "tools", "build system", "devops"]

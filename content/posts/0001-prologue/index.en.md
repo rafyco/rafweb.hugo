@@ -2,6 +2,8 @@
 date: '2017-08-18T22:49:51+01:00'
 draft: false
 title: 'Prologue'
+aliases:
+  - /posts/prologue
 
 categories: ["reflections"]
 tags: []

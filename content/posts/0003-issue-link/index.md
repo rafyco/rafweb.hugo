@@ -3,6 +3,8 @@ date: '2025-04-10T06:00:00+01:00'
 draft: false
 title: 'Linki do tasków w inteliJ'
 subtitle: 'Dodaj linki do tasków w systemie wersjonowania'
+aliases:
+  - /posts/issue-link
 
 categories: ["it"]
 tags: ["intelij", "programowanie", "ide", "jetbrains"]

@@ -2,5 +2,8 @@
 version: 3
 
 tasks:
-  start: hugo server --bind 0.0.0.0 --buildDrafts --buildExpired --buildFuture
+  start:dev:
+    aliases: [start]
+    cmd: hugo server --bind 0.0.0.0 --buildDrafts --buildExpired --buildFuture
+  start:prod: hugo server --bind 0.0.0.0
   build: hugo build
