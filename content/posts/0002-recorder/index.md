@@ -12,8 +12,8 @@ tags: ["reklama"]
 toc:
   enable: false
 
-featuredImage: "/posts/nagrywarka/featured-image.jpg"
-featuredImagePreview: "/posts/nagrywarka/featured-image.jpg"
+featuredImage: "/posts/0002-recorder/featured-image.jpg"
+featuredImagePreview: "/posts/0002-recorder/featured-image.jpg"
 ---
 
 Parę dni temu przyglądając się grupce dzieci zauważyłem pewne ciekawe zjawisko. Dziś napiszę parę słów na ten temat.

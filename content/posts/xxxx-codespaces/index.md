@@ -7,8 +7,8 @@ draft: true
 tags: ["programowanie", "chmura", "github", "codespaces", "ide"]
 categories: ["it"]
 
-featuredImage: "/posts/codespaces/featured-image.jpg"
-featuredImagePreview: "/posts/codespaces/featured-image.jpg"
+featuredImage: "/posts/xxxx-codespaces/featured-image.jpg"
+featuredImagePreview: "/posts/xxxx-codespaces/featured-image.jpg"
 ---
 Ach jak dobrze czasem poprogramować. Choć to tylko praca, dla wielu z nas programowanie jest także fajną odskocznią od
 codziennych zmartwień. Ćwiczy nasz umysł, pomaga uporządkować myśli, rozwiązuje realne problemy, ale przede wszystkim
@@ -40,7 +40,7 @@ wyświetlany na ekranie, potrzebny jest szybki i stabilny internet, to i tak jes
 inwestować w coraz mocniejsze urządzenie, lub po prostu mamy ochotę pograć trochę na swoim smartfonie w coś
 ambitniejszego.
 
-{{< figure src="/posts/codespaces/img/geforce.png" title="To może pograjmy w Wiedźmina na moim leciwym komputerze" >}}
+{{< figure src="/posts/xxxx-codespaces/img/geforce.png" title="To może pograjmy w Wiedźmina na moim leciwym komputerze" >}}
 
 Pewnie znaleźlibyśmy więcej przykładów narzędzi dla księgowych, hydraulików, czy fryzjerów, których z racji na swój zawód
 nie znam, ale które również umożliwiają pracę z chmury. Skupię się natomiast na jednym z takich narzędzi dedykowanym
@@ -56,7 +56,7 @@ Warto wspomnieć, że w usługę jest wbudowany edytor, który w razie potrzeby,
 zmian w kodzie. W nagłych przypadkach jest to wystarczające i może nam uratować życie (pod warunkiem, że mamy zautomatyzowany
 deployment), jednak ciężko w ten sposób zaimplementować bardziej skomplikowaną funkcjonalność.
 
-{{< figure src="/posts/codespaces/img/github-editor.png" title="Edytor wbudowany w github jest prosty, ale spełnia swoje zadanie." >}}
+{{< figure src="/posts/xxxx-codespaces/img/github-editor.png" title="Edytor wbudowany w github jest prosty, ale spełnia swoje zadanie." >}}
 
 We wbudowanym edytorze, brakuje możliwości edycji kilku plików naraz, uruchomienia programu czy też użycia narzędzi do 
 sprawdzenia kodu. Trudno także kontynuować pracę, rozpoczętą w innym miejscu, bez zapisania pliku w commicie. Słowem
@@ -69,7 +69,7 @@ przekierowywania portów do urządzenia, na którym pracujemy, możliwe jest tak
 aplikacji takich jak serwery, czy aplikacje okienkowe (przykład [tutaj](https://dev.to/konmaz/gui-in-github-codespaces-jl0?utm_source=rafycopl)).
 
 
-{{< figure src="/posts/codespaces/img/ide.png" title="Wygląd IDE przypomina Visual Code Studio, ale to dobrze, bo nie trzeba się od nowa uczyć obsługi" >}}
+{{< figure src="/posts/xxxx-codespaces/img/ide.png" title="Wygląd IDE przypomina Visual Code Studio, ale to dobrze, bo nie trzeba się od nowa uczyć obsługi" >}}
 
 ## Uruchomienie
 

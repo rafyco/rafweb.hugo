@@ -14,8 +14,8 @@ toc:
   auto: true
   keepStatic: false
   
-featuredImage: "/posts/issue-link/featured-image.png"
-featuredImagePreview: "/posts/issue-link/featured-image.png"
+featuredImage: "/posts/0003-issue-link/featured-image.png"
+featuredImagePreview: "/posts/0003-issue-link/featured-image.png"
 ---
 
 W swojej pracy bardzo często korzystam z narzędzi od JetBrains. Jedną z rzeczy która mi się podoba w ich oprogramowaniu
@@ -56,17 +56,17 @@ oraz strony [github issues](https://github.com/rafyco/ytrss/issues).
 chcemy, aby przekierowywał. W przykładzie wykorzystam linkowanie do zadań na github issues, ale z powodzeniem możesz to 
 dostosować do własnego projektu.
 
-{{< figure src="/posts/issue-link/img/vcs-before.png" title="Lista commitów bez dodatkowych linków" >}}
+{{< figure src="/posts/0003-issue-link/img/vcs-before.png" title="Lista commitów bez dodatkowych linków" >}}
 
 Powiedzmy, że chcemy, aby ciąg znaków `#123` przekierowywał do linku `https://github.com/rafyco/ytrss/pull/123`. Zauważmy,
 że `123` to tak naprawdę identyfikator naszego zadania, który chcemy przekazać do url, jako zmienną.
 
-{{< figure src="/posts/issue-link/img/add-issue.png" title="Dodanie pozycji w Issue Navigation" >}}
+{{< figure src="/posts/0003-issue-link/img/add-issue.png" title="Dodanie pozycji w Issue Navigation" >}}
 
 Otwieramy menu **Settings** (lub wybieramy skrót klawiszowy: [ctrl][alt][s]) | **Version Control** | **Issue Navigation**. 
 Następnie dodajemy nową pozycję wybierając `Add Issue Navigation Link`.
 
-{{< figure src="/posts/issue-link/img/add-popup.png" title="Popup w którym definiujemy link" >}}
+{{< figure src="/posts/0003-issue-link/img/add-popup.png" title="Popup w którym definiujemy link" >}}
 
 W sekcji `Issue ID` wpisujemy element, który ma zostać podkreślony. Używamy do tego składni regexp, aby wyciąć konkretny
 fragment. Dodatkowo w nawiasy, oznaczamy fragment, który będzie potrzebny do stworzenia linku. W tym przypadku jest to
@@ -78,7 +78,7 @@ wkleić znacznik, wybrany w poprzednim regexpie.
 
 Po dodaniu nowego wpisu lista prezentuje się następująco:
 
-{{< figure src="/posts/issue-link/img/vcs-after.png" title="Lista commitów ze zdefiniowanymi linkami" >}}
+{{< figure src="/posts/0003-issue-link/img/vcs-after.png" title="Lista commitów ze zdefiniowanymi linkami" >}}
 
 Po kliknięciu w zaznaczone linki powinna nam się uruchomić przeglądarka w której otworzy się strona z zadaniem.
 

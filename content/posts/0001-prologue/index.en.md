@@ -11,8 +11,8 @@ tags: []
 toc:
   enable: false
 
-featuredImage: "/posts/prologue/featured-image.jpg"
-featuredImagePreview: "/posts/prologue/featured-image.jpg"
+featuredImage: "/posts/0001-prologue/featured-image.jpg"
+featuredImagePreview: "/posts/0001-prologue/featured-image.jpg"
 ---
 
 A Polish philosopher once ruled that the sun stands still and all the other planets revolve around it. Contrary to the

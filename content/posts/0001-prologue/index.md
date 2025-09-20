@@ -11,8 +11,8 @@ tags: []
 toc:
   enable: false
 
-featuredImage: "/posts/prologue/featured-image.jpg"
-featuredImagePreview: "/posts/prologue/featured-image.jpg"
+featuredImage: "/posts/0001-prologue/featured-image.jpg"
+featuredImagePreview: "/posts/0001-prologue/featured-image.jpg"
 ---
 
 Pewien polski filozof orzekł kiedyś, że słońce stoi w miejscu, a wszystkie inne planety krążą wokół niej. Wbrew powszechnemu ówczesnym przekonaniu o centralnym położeniu słońca udało mu się przekonać cały świat o słuszności swoich poglądów i zdobyć międzynarodową sławę.

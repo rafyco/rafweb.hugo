@@ -11,8 +11,8 @@ tags: ["ads"]
 toc:
   enable: false
 
-featuredImage: "/posts/nagrywarka/featured-image.jpg"
-featuredImagePreview: "/posts/nagrywarka/featured-image.jpg"
+featuredImage: "/posts/0002-nagrywarka/featured-image.jpg"
+featuredImagePreview: "/posts/0002-nagrywarka/featured-image.jpg"
 ---
 
 A few days ago, while looking at a group of children, I noticed an interesting phenomenon. Today I will write a few

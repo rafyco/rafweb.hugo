@@ -8,8 +8,8 @@ draft: true
 tags: ["pgp", "gpg"]
 categories: ["it"]
 
-featuredImage: "/posts/pgp/featured-image.jpg"
-featuredImagePreview: "/posts/pgp/featured-image.jpg"
+featuredImage: "/posts/xxxx-pgp/featured-image.jpg"
+featuredImagePreview: "/posts/xxxx-pgp/featured-image.jpg"
 ---
 
 <!--more-->

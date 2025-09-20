@@ -14,8 +14,8 @@ toc:
   auto: true
   keepStatic: false
   
-featuredImage: "/posts/taskfile/featured-image.png"
-featuredImagePreview: "/posts/taskfile/featured-image.png"
+featuredImage: "/posts/0004-taskfile/featured-image.png"
+featuredImagePreview: "/posts/0004-taskfile/featured-image.png"
 ---
 
 Sometimes, working on different projects, we happen to use different technologies. Flutter, React, Python or Java

@@ -7,8 +7,8 @@ draft: true
 tags: []
 categories: ["it"]
 
-featuredImage: "/posts/codespaces/featured-image.jpg"
-featuredImagePreview: "/posts/codespaces/featured-image.jpg"
+featuredImage: "/posts/xxxx-codespaces/featured-image.jpg"
+featuredImagePreview: "/posts/xxxx-codespaces/featured-image.jpg"
 ---
 
 <!--more-->

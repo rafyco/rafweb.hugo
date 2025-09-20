@@ -8,8 +8,8 @@ draft: true
 tags: []
 categories: ["Default"]
 
-featuredImage: "/posts/alternative-notes/featured-image.jpg"
-featuredImagePreview: "/posts/alternative-notes/featured-image.jpg"
+featuredImage: "/posts/xxxx-alternative-notes/featured-image.jpg"
+featuredImagePreview: "/posts/xxxx-alternative-notes/featured-image.jpg"
 ---
 
 <!--more-->

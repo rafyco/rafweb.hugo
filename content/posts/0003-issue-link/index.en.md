@@ -14,8 +14,8 @@ toc:
   auto: true
   keepStatic: false
   
-featuredImage: "/posts/issue-link/featured-image.png"
-featuredImagePreview: "/posts/issue-link/featured-image.png"
+featuredImage: "/posts/0003-issue-link/featured-image.png"
+featuredImagePreview: "/posts/0003-issue-link/featured-image.png"
 ---
 
 I use tools from JetBrains a lot in my work. One of the things that I like about their software
@@ -61,17 +61,17 @@ To create our links, we first need to think about what the task description look
 want it to redirect. In the example I will use linking to tasks on github issues, but you can successfully customize
 it for your own project.
 
-{{< figure src="/posts/issue-link/img/vcs-before.png" title="List of commits without additional links" >}}
+{{< figure src="/posts/0003-issue-link/img/vcs-before.png" title="List of commits without additional links" >}}
 
 Let's say we want the string `#123` to redirect to the link `https://github.com/rafyco/ytrss/pull/123`. Let's note,
 that `123` is actually the ID of our task, which we want to pass to the url, as a variable.
 
-{{< figure src="/posts/issue-link/img/add-issue.png" title="Add a position in Issue Navigation" >}}
+{{< figure src="/posts/0003-issue-link/img/add-issue.png" title="Add a position in Issue Navigation" >}}
 
 Open the **Settings** menu (or select the keyboard shortcut: [ctrl][alt][s]) | **Version Control** | **Issue Navigation**.
 Then add a new item by selecting `Add Issue Navigation Link`.
 
-{{< figure src="/posts/issue-link/img/add-popup.png" title="Popup where we describe our links" >}}
+{{< figure src="/posts/0003-issue-link/img/add-popup.png" title="Popup where we describe our links" >}}
 
 In the `Issue ID` section, we type the element to be highlighted. For this, we use the regexp syntax to cut out a specific
 fragment. In addition, in parentheses, we mark the fragment that will be needed to create the link. In this case, it is
@@ -83,7 +83,7 @@ place paste the tag, selected in the previous regexp.
 
 After adding a new entry, the list looks as follows:
 
-{{< figure src="/posts/issue-link/img/vcs-after.png" title="list of commits with described links" >}}
+{{< figure src="/posts/0003-issue-link/img/vcs-after.png" title="list of commits with described links" >}}
 
 After clicking on the marked links, we should get a browser in which the page with the task will open.
 
