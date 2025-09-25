@@ -92,7 +92,7 @@ params:
           Xing: false
           Line: false
           Instapaper: false
-          Pocket: true
+          Pocket: false
           Flipboard: false
           Weibo: false
           Blogger: false
