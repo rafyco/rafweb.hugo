@@ -6,10 +6,10 @@ lastmod: 2025-04-15T20:54:00+02:00
 draft: true
 
 tags: []
-categories: ["Default"]
+categories: ["productivity"]
 
-featuredImage: "/posts/xxxx-alternative-notes/featured-image.jpg"
-featuredImagePreview: "/posts/xxxx-alternative-notes/featured-image.jpg"
+featuredImage: "/posts/0005-alternative-notes/featured-image.png"
+featuredImagePreview: "/posts/0005-alternative-notes/featured-image.png"
 ---
 
 <!--more-->
