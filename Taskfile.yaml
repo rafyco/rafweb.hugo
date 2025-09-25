@@ -7,3 +7,7 @@ tasks:
     cmd: hugo server --bind 0.0.0.0 --buildDrafts --buildExpired --buildFuture
   start:prod: hugo server --bind 0.0.0.0
   build: hugo build
+  upgrade:
+    cmds:
+      - git pull
+      - task: build
