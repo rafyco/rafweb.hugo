@@ -24,3 +24,6 @@ Ta notatka nie powinna być udostępniona. Notatki na potrzeby bloga.
 * [ ] SSH Tunneling – co to jest i jak go używać
 * [ ] Jak w prosty sposób monitorować logi w czasie rzeczywistym -> tail -f
 * [ ] Git: jak sprawdzić, kto ostatnio zmienił daną linię -> git blame
+
+* [ ] Wpis na temat tego jak przeczytać napis ze zdjęcia
+* [ ] Wpis jak używać google photo
